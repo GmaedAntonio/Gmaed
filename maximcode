@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        System.out.println("Performance Task");
+
+        System.out.println("1st activity");
+        int x = input.nextInt();
+
+        System.out.println("2nd activity");
+        int y = input.nextInt();
+
+        System.out.println("3rd activity");
+        int z = input.nextInt();
+        int sum;
+        sum = x + y + z;
+
+
+        float quot;
+        quot = sum / 3;
+
+        double ptg;
+        ptg = sum *.60;
+        System.out.println("The average is: "+quot);
+        System.out.println("The percentage is: "+ptg);
+
+    }
+}
